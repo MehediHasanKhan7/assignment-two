@@ -388,3 +388,135 @@ font-size: 20px;
 padding: 39px 410px;
 }
 
+/*................................. adjustments for mobile devices .............................. */
+
+@media only screen and (max-width:600px) {
+
+    .banner-bg{
+        width: 1200px;
+    }
+    .banner{
+        width: 1200px;
+    }
+    .nav-container{
+        margin-left:50px;
+        margin-right: 50px;
+    }
+    .tools{
+        display: none;
+    }
+    .home{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .menu{
+        font-size: 40px;
+       padding-right: 50px;
+    }
+    .fa-bars{
+        position: absolute;
+    }
+    .fa-bars li{
+        list-style: none;
+        margin-top: 10px;
+    }
+    .fa-bars li{
+        background-color: #fdc17d;
+        border: 0;
+        border-radius: 5px;
+        font-size: 16px;
+        height: 20px;
+        width: 100px;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 5px;
+    }
+    .fa-bars li:hover{
+background-color: #FF900E;
+    }
+.fa-bars li{
+    display: none;
+   position: relative;
+
+    
+}
+.fa-bars:hover > li{
+    display:block;
+}
+
+    .feature-info-container{
+        width: 1200px;
+    }
+
+    .feature-list-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 600px;
+        width: 960px;
+
+    }
+    .architect{
+    
+        margin-top: 0;
+    }
+    .secondary-btn-container{
+        padding-top: 2100px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .facts-container{
+        width: 1200px;
+        margin-top: 800px;
+    }
+
+    .facts-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        width: 1200px;
+    }
+    .box-container{
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+        width: 1200px;
+        
+        margin-left: 0; 
+    }
+    .sponsors-info{
+        width: 1200px;
+    }
+    .brands-icon{
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 1200px;
+
+    }
+
+    .feedback-container{
+        width: 1200px;
+    }
+
+.footer{
+    width: 1200px;
+  margin-left: 0px;
+
+}
+.footer-description{
+    padding: 39px 100px;
+  text-align: center;
+}
+
+}
+
+
+/*------------------------ adjustments for larger devices--------------------- */
+
+@media only screen and (min-width:600px) {
+    .menu{
+        display: none;
+    }
+
+}
